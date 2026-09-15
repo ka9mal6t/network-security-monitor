@@ -1,7 +1,7 @@
 import psutil
 from datetime import datetime
 
-from detector import analyze_remote_port
+from monitoring.detector import analyze_remote_port
 
 
 def get_connections():

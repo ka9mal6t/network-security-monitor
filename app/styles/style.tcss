@@ -1,0 +1,42 @@
+Screen {
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+Header {
+    background: #161b22;
+    color: #58a6ff;
+}
+
+#status {
+    height: 3;
+    padding: 1;
+    background: #161b22;
+    color: #c9d1d9;
+    border-bottom: solid #30363d;
+}
+
+#connections {
+    height: 1fr;
+    border: solid #30363d;
+}
+
+DataTable {
+    height: 1fr;
+    background: #0d1117;
+}
+
+DataTable > .datatable--header {
+    background: #21262d;
+    color: #58a6ff;
+    text-style: bold;
+}
+
+DataTable > .datatable--cursor {
+    background: #1f6feb;
+    color: white;
+}
+
+Footer {
+    background: #161b22;
+}
